@@ -6,11 +6,14 @@ Test your Alexa skills quickly and easily using Python and Pytest
 Very much a work in progress. I built DepressionAI, and then discovered there wasn't any real test frameworks out there for testing Alexa skills. So I decided to build one. 
 
 ### Vision: 
-Simple function call to add automated tests to your Alexa skills. 
+Simple package for testing Alexa skills.
 
 ### Roadmap: 
 
-- Automatic ingestion of intent schema and generate basic tests from that. 
+- Ingestion of intent schema and generate intent response tests from that.
 - Utterance-Intent matching tests
-- Async execution
+- Machine learning-based utterance generation
+- Multithreaded execution
 - Documentation and examples
+- Pytest hooks
+
